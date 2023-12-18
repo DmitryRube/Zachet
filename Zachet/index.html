@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Program</title>
+  <link rel="stylesheet" href="./pages/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body class="root">
+<article class="page">
+<section class="services">
+<img class="bacground__image" src="/images/Rectangle.png">
+<div class="line"></div>
+<h2 class="services__title">грузоперевозки по европе</h2>
+<p class="services__text">Страны Евросоюза, а также Украина, Белоруссия со всеми документами.</p>
+<button
+id="more__button" 
+class="button" 
+type="button"
+onclick="window['profile-id'].showModal()" 
+aria-controls="profile-id"
+onclick="window['profile-id'].showModal()" 
+          aria-controls="profile-id"
+>ПОДРОБНЕЕ</button>
+<dialog id="profile-id">
+    <form class="profile">
+      
+    </form> 
+    <form method="dialog">
+        <button class="popup__close-button">
+              <span class="visually-hidden">X</span>
+          </button>
+      </form> 
+  </dialog>
+</section>
+<section class="trucs" id="card">
+    
+    <img id="image" class="card__image" src="/images/Rectangle 4.png" onClick="imgsrc()" onClick="imgback()">
+    <script language="javascript">
+        var i=0;
+        var image=document.getElementById("image");
+        // Добавте свои картинки через запятую
+        var imgs=new Array('Rectangle 4.png', 'Rectangle 3.png','Rectangle 2.png','Rectangle 1.png',);
+        function imgsrc() {
+            i++;
+            image.src=imgs[i];
+        }
+    </script>
+    <script language="javascript">
+        var i=1;
+        var image=document.getElementById("image");
+        // Добавте свои картинки через запятую
+        var imgs=new Array('Rectangle 4.png', 'Rectangle 3.png','Rectangle 2.png','Rectangle 1.png',);
+        function imgback() {
+            i--;
+            image.src=imgs[i];
+        }
+    </script>
+    <div>
+    <button
+    onClick="imgsrc()"
+    id="next__button" 
+    class="next__button" 
+    type="button"
+    >СЛЕД</button>
+    <button
+    onClick="imgback()"
+    id="back__button" 
+    class="back__button" 
+    type="button"
+    >НАЗАД</button>
+</div>
+</section>
+</article>
+<script type="module" src="./pages/index.js"></script>
+</body>
+</html>

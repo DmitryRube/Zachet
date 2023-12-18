@@ -1,0 +1,177 @@
+.root{
+    max-width: 1920px;
+
+background-color: #2F343A;
+
+}
+.page{
+margin: 0 auto 0 auto;
+    display: flex;
+flex-direction: row;
+    width: 1110px;
+height: 561px;
+}
+
+.bacground__image{
+    display: none;
+position: absolute;
+width: 755px;
+height: 561px;
+left: 0;
+top: 0;
+background:linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), #393F47;
+}
+.bacground__img
+{display: none;
+    position: absolute;
+    width: 755px;
+    height: 561px;
+   right: 0;
+    top: 0;
+    background:linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), #393F47;
+}
+.line{
+margin: 120px 0 0 0;
+width: 90px;
+height: 6px;
+
+background: 
+ #C8A35F;
+
+}
+.services__title{
+/* грузоперевозки по европе */
+margin: 40px 0 0 0;
+width: 445px;
+height: 86px;
+
+
+/* h2 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 49px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+.services__text{
+/* Страны Евросоюза, а также Украина, Белоруссия со всеми документами. */
+margin: 30px 0 0 0;
+width: 445px;
+height: 45px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+
+color: #FFFFFF;
+
+
+}
+.button{
+/* services__button */
+
+margin: 50px 0 0 0;
+width: 220px;
+height: 55px;
+cursor: pointer;
+
+/* Gold */
+background: #C8A35F;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+.trucs{
+display: flex;
+flex-direction: row;
+}
+.card__image{
+    margin: 156px 30px 0 0;
+width: 445px;
+height: 266px;
+
+
+
+}
+.next__button{
+/* services__next */
+margin: 156px 29px 0 0;
+width: 161px;
+height: 20px;
+
+
+background-color: transparent; 
+border: none;
+cursor: pointer;
+
+
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+/* Gold */
+color: #C8A35F;
+
+
+}
+.back__button{
+/* services__back */
+
+margin: 156px 245px 0 0;
+width: 160px;
+height: 20px;
+
+
+background-color: transparent; 
+border: none;
+
+cursor: pointer;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.1em;
+
+
+/* Gold */
+color: #C8A35F;
+
+
+}
+.profile{
+    
+    
+        width: 500px;
+    height: 500px;
+    
+}
